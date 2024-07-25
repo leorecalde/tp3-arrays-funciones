@@ -91,17 +91,17 @@ do {
     console.log(dado2);
 
     switch (dado1 + dado2) {
-        case 2: libreta.push(2); break;
-        case 3: libreta.push(3); break;
-        case 4: libreta.push(4); break;
-        case 5: libreta.push(5); break;
-        case 6: libreta.push(6); break;
-        case 7: libreta.push(7); break;
-        case 8: libreta.push(8); break;
-        case 9: libreta.push(9); break;
-        case 10: libreta.push(10); break;
-        case 11: libreta.push(11); break;
-        case 12: libreta.push(12); break;
+        case 2: libreta.splice(1,0,i); break;
+        case 3: libreta.splice(2,0,i); break;
+        case 4: libreta.splice(3,0,i); break;
+        case 5: libreta.splice(4,0,i); break;
+        case 6: libreta.splice(5,0,i); break;
+        case 7: libreta.splice(6,0,i); break;
+        case 8: libreta.splice(7,0,i); break;
+        case 9: libreta.splice(8,0,i); break;
+        case 10: libreta.splice(9,0,i); break;
+        case 11: libreta.splice(10,0,i); break;
+        case 12: libreta.splice(11,0,i); break;
         default: document.write(`no se guardaron tus dados`); break;
     }
 
